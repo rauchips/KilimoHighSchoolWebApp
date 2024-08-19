@@ -1,0 +1,52 @@
+INSERT INTO Streams (
+    [Id]
+   ,[Name]
+   )
+VALUES (
+    NEWID()
+   ,'Form 1A'
+   ),
+   (
+    NEWID()
+   ,'Form 1B'
+   ),
+   (
+    NEWID()
+   ,'Form 1C'
+   ),
+   (
+    NEWID()
+   ,'Form 2A'
+   ),
+   (
+    NEWID()
+   ,'Form 2B'
+   ),
+   (
+    NEWID()
+   ,'Form 2C'
+   ),
+   (
+    NEWID()
+   ,'Form 3A'
+   ),
+   (
+    NEWID()
+   ,'Form 3B'
+   ),
+   (
+    NEWID()
+   ,'Form 3C'
+   ),
+   (
+    NEWID()
+   ,'Form 4A'
+   ),
+   (
+    NEWID()
+   ,'Form 4B'
+   ),
+   (
+    NEWID()
+   ,'Form 4C'
+   )

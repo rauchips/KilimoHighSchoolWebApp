@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[Students] (
+    [Id]                 UNIQUEIDENTIFIER NOT NULL,
+    [FirstName]          NVARCHAR (MAX)   NOT NULL,
+    [MiddleName]         NVARCHAR (MAX)   NULL,
+    [LastName]           NVARCHAR (MAX)   NOT NULL,
+    [Age]                INT              NOT NULL,
+    [RegistrationNumber] NVARCHAR (MAX)   NOT NULL,
+    CONSTRAINT [PK_Students] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+ALTER TABLE [Streams] ADD CONSTRAINT Streams_Id_FK
+FOREIGN KEY (Id) REFERENCES Students (StudentId)
